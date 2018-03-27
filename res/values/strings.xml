@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Әлем Тілдері</string>
+    <string name="erc_nis">© 2014 ERC NIS</string>
+
+    <string-array name="langs_interface">
+        <item>Қазақ тілі</item>
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="langs_interface_alias">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- {0,choice,0#KZ | 1#RU | 2#EN} -->
+     <string name="interfacelang">{0,choice,0#Интерфейс | 1#Интерфейс | 2#Interface}</string>   
+    <string name="settings">{0,choice,0#Икемдеу | 1#Настройки | 2#Settings}</string>
+    <string name="first_language">{0,choice,0#Бірінші тіл | 1#Первый язык | 2#First Language}</string>
+    <string name="second_language">{0,choice,0#Екінші тіл | 1#Второй язык | 2#Second Language}</string>
+    <string name="display_name_while_speaking">{0,choice,0#Дауысын қосу | 1#Включить звук | 2#Display name while speaking}</string>
+    <string name="languages">{0,choice,0#ТІЛДЕР | 1#ЯЗЫКИ | 2#LANGUAGES}</string>
+    <string name="extra">{0,choice,0#ҚОСЫМША | 1#ДОПОЛНИТЕЛЬНО | 2#ITEMS}</string>
+    <string name="information">{0,choice,0#АҚПАРАТ | 1#ИНФОРМАЦИЯ | 2#INFORMATION}</string>
+    <string name="credits">{0,choice,0#Біз туралы | 1#О нас | 2#About}</string>
+    <string name="toast_exit">{0,choice,0#Шығу үшін бір рет шертіңіз | 1#Нажмите еще раз чтобы выйти | 2#Press again to exit }</string>
+ <string name="cancel">{0,choice,0#болдырмау | 1#отмена | 2#cancel}</string>   
+    <string-array name="Languages">
+        <item name="KZ">Қазақша</item>
+        <item name="RU">Русский</item>
+        <item name="USA">English (USA)</item>
+        <item name="UK">English (UK)</item>
+        <item name="FR">Français</item>
+        <item name="BR">Português (Brasil)</item>
+        <item name="IT">Italiano</item>
+        <item name="SP">Español</item>
+        <item name="GR">Deutsch</item>
+        <item name="DA">Dansk</item>
+        <item name="SW">Svenska</item>
+        <item name="TR">Türkçe</item>
+        <item name="IS">עברית</item>
+        <item name="MO">العربية</item>
+        <item name="CH">中文</item>
+    </string-array>
+    <string-array name="LanguageAlias">
+        <item name="KZ">0</item>
+        <item name="RU">1</item>
+        <item name="USA">2</item>
+        <item name="UK">3</item>
+        <item name="FR">4</item>
+        <item name="BR">5</item>
+        <item name="IT">6</item>
+        <item name="SP">7</item>
+        <item name="GR">8</item>
+        <item name="DA">9</item>
+        <item name="SW">10</item>
+        <item name="TR">11</item>
+        <item name="IS">12</item>
+        <item name="MO">13</item>
+        <item name="CH">14</item>
+    </string-array>
+    <string-array name="FarmAnimals">
+        <item name="KZ">{0,choice,0#Үйрек | 1#Ат | 2#Балапан | 3#Тауық | 4#Қоян | 5#Есек | 6#Ешкі | 7#Доңыз | 8#Қой | 9#Мысық | 10#Сиыр | 11#Ит}</item>
+        <item name="RU">{0,choice,0#Утка | 1#Лошадь | 2#Цыплёнок | 3#Курица | 4#Кролик | 5#Осёл | 6#Козёл | 7#Свинья | 8#Овца | 9#Кошка | 10#Корова | 11#Собака}</item>
+        <item name="EN">{0,choice,0#Duck | 1#Horse | 2#Chick | 3#Hen | 4#Rabbit | 5#Donkey | 6#Goat | 7#Pig | 8#Sheep | 9#Cat | 10#Cow | 11#Dog}</item>
+        <item name="EN-GB">{0,choice,0#Duck | 1#Horse | 2#Chick | 3#Hen | 4#Rabbit | 5#Donkey | 6#Goat | 7#Pig | 8#Sheep | 9#Cat | 10#Cow | 11#Dog}</item>
+        <item name="FR">{0,choice,0#Canard | 1#Cheval | 2#Poussin | 3#Poule | 4#Lapin | 5#Âne | 6#Chèvre | 7#Cochon | 8#Mouton | 9#Chat | 10#Vache | 11#Chien}</item>
+        <item name="PT">{0,choice,0#Pato | 1#Cavalo | 2#Pintinho | 3#Galinha | 4#Coelho | 5#Burro | 6#Cabra | 7#Porco | 8#Ovelha | 9#Gato | 10#Vaca | 11#Cachorro}</item>
+        <item name="IT">{0,choice,0#Anatra | 1#Cavallo | 2#Pulcino | 3#Gallina | 4#Coniglio | 5#Asino | 6#Capra | 7#Maiale | 8#Pecora | 9#Gatto | 10#Mucca | 11#Cane}</item>
+        <item name="ES">{0,choice,0#Pato | 1#Caballo | 2#Polluelo | 3#Gallina | 4#Conejo | 5#Burro | 6#Cabra | 7#Cerdo | 8#Oveja | 9#Gato | 10#Vaca | 11#Perro}</item>
+        <item name="DE">{0,choice,0#Ente | 1#Pferd | 2#Küken | 3#Huhn | 4#Hase | 5#Esel | 6#Ziege | 7#Schwein | 8#Schaf | 9#Katze | 10#Kuh | 11#Hund}</item>
+        <item name="DA">{0,choice,0#And | 1#Hest | 2#Kylling | 3#Høne | 4#Kanin | 5#Æsel | 6#Ged | 7#Gris | 8#Får | 9#Kat | 10#Ko | 11#Hund}</item>
+        <item name="SV">{0,choice,0#Anka | 1#Häst | 2#Kykling | 3#Höna | 4#Kanin | 5#Åsna | 6#Get | 7#Gris | 8#Får | 9#Kat | 10#Ko | 11#Hund}</item>
+        <item name="TR">{0,choice,0#Ördek | 1#At | 2#Civciv | 3#Tavuk | 4#Tavşan | 5#Eşek | 6#Keçi | 7#Domuz | 8#Koyun | 9#Kedi | 10#Inek | 11#Köpek}</item>
+        <item name="HE">{0,choice,0#ברווז | 
+            						1#סוס | 
+            						2#אפרוח | 
+            						3#תרנגולת | 
+            						4#ארנב | 
+            						5#חמור | 
+            						6#עז | 
+            						7#חזיר | 
+            						8#כבשה | 
+            						9#חתול | 
+            						10#פרה | 
+            						11#כלב}</item>
+        <item name="AR">{0,choice,0#بط | 
+            						1#حصان | 
+            						2#فرخ | 
+            						3#دجاجة | 
+            						4#أرنب | 
+            						5#حمار | 
+            						6#ماعز | 
+            						7#خنزير | 
+            						8#خروف | 
+            						9#قط | 
+            						10#بقرة | 
+            						11#كلب}</item>
+        <item name="ZH-HANS">{0,choice,0#鸭子 | 1#马 | 2#小鸡 | 3#母鸡 | 4#兔 | 5#驴 | 6#山羊 | 7#猪 | 8#绵羊 | 9#猫 | 10#奶牛 | 11#狗}</item>
+    </string-array>
+    <string-array name="Colors">
+        <item name="KZ">{0,choice,0#Ақ | 1#Сары | 2#Ақшыл сары | 3#Жасыл | 4#Қоңыр | 5#Көк | 6#Қызғылт| 7#Қызыл | 8#Қара | 9#Сұр | 10#Қызғылт сары | 11#Күлгін}</item>
+        <item name="RU">{0,choice,0#Белый | 1#Жёлтый | 2#Бежевый | 3#Зеленый | 4#Коричневый | 5#Синий | 6#Розовый | 7#Красный | 8#Чёрный | 9#Серый | 10#Оранжевый | 11#Фиолетовый}</item>
+        <item name="EN">{0,choice,0#White | 1#Yellow | 2#Beige | 3#Green | 4#Brown | 5#Blue | 6#Pink | 7#Red | 8#Black | 9#Gray | 10#Orange | 11#Purple}</item>
+        <item name="EN-GB">{0,choice,0#White | 1#Yellow | 2#Beige | 3#Green | 4#Brown | 5#Blue | 6#Pink | 7#Red | 8#Black | 9#Grey | 10#Orange | 11#Purple}</item>
+        <item name="FR">{0,choice,0#Blanc | 1#Jaune | 2#Beige | 3#Vert | 4#Marron | 5#Bleu | 6#Rose | 7#Rouge | 8#Noir | 9#Gris | 10#Orange | 11#Violet}</item>
+        <item name="PT">{0,choice,0#Branco | 1#Amarelo | 2#Bege | 3#Verde | 4#Marron | 5#Azul | 6#Rosa | 7#Vermelho | 8#Preto | 9#Cinza | 10#Laranja | 11#Roxo}</item>
+        <item name="IT">{0,choice,0#Bianco | 1#Giallo | 2#Beige | 3#Verde | 4#Marrone | 5#Blu | 6#Rosa | 7#Rosso | 8#Nero | 9#Grigio | 10#Arancione | 11#Viola}</item>
+        <item name="ES">{0,choice,0#Blanco | 1#Amarillo | 2#Beige | 3#Verde | 4#Marrón | 5#Azul | 6#Rosa | 7#Rojo | 8#Negro | 9#Gris | 10#Naranja | 11#Violeta}</item>
+        <item name="DE">{0,choice,0#weiß | 1#gelb | 2#beige | 3#grün | 4#braun | 5#blau | 6#rosa | 7#rot | 8#schwarz | 9#grau | 10#orange | 11#lila}</item>
+        <item name="DA">{0,choice,0#Hvid | 1#Gul | 2#Beige | 3#Grøn | 4#Brun | 5#Blå | 6#Lyserød | 7#Rød | 8#Sort | 9#Grå | 10#Orange | 11#Lilla}</item>
+        <item name="SV">{0,choice,0#Vit | 1#Gul | 2#Beige | 3#Grön | 4#Brun | 5#Blå | 6#Rosa | 7#Röd | 8#Svart | 9#Grå | 10#Orange | 11#Lila}</item>
+        <item name="TR">{0,choice,0#Beyaz | 1#Sarı | 2#Bej | 3#Yeşil | 4#Kahverengi | 5#Mavi | 6#Pembe | 7#Kırmızı | 8#Siyah | 9#Gri | 10#Turuncu | 11#Mor}</item>
+        <item name="HE">{0,choice,0#לבן | 
+            			1#צהוב | 
+            			2#חום בהיר | 
+            			3#ירוק | 
+            			4#חום | 
+            			5#כחול | 
+            			6#ורוד | 
+            			7#אדום | 
+            			8#שחור | 
+            			9#אפור | 
+            			10#כתום | 
+            			11#סגול}</item>
+        <item name="AR">{0,choice,0#أبيض | 
+            			1#أصفر | 
+            			2#البيج | 
+            			3#أخضر | 
+            			4#بنى | 
+            			5#أزرق | 
+            			6#وردي | 
+            			7#أحمر | 
+            			8#أسود | 
+            			9#رمادي | 
+            			10#برتقالي | 
+            			11#أرجواني}</item>
+        <item name="ZN-HANS">{0,choice,0#白色 | 1#黄色 | 2#米色 | 3#绿色 | 4#棕色 | 5#蓝色 | 6#粉红色 | 7#红色 | 8#黑色 | 9#灰色 | 10#橙色 | 11#紫色}</item>
+    </string-array>
+    <string-array name="Fruits">
+        <item name="KZ">{0,choice,0#Алмұрт | 1#Банан | 2#Құлпынай | 3#Ананас | 4#Алма | 5#Таңқурай | 6#Кокос | 7#Маракуйя | 8#Апельсин | 9#Қарбыз | 10#Шие | 11#Қауын}</item>
+        <item name="RU">{0,choice,0#Груша | 1#Банан | 2#Клубника | 3#Ананас | 4#Яблоко | 5#Малина | 6#Кокос | 7#Маракуйя | 8#Апельсин | 9#Арбуз | 10#Вишня | 11#Дыня}</item>
+        <item name="EN">{0,choice,0#Pear | 1#Banana | 2#Strawberry | 3#Pineapple | 4#Apple | 5#Raspberry | 6#Coconut | 7#Passion fruit | 8#Orange | 9#Watermelon | 10#Cherry | 11#Melon}</item>
+        <item name="EN-GB">{0,choice,0#Pear | 1#Banana | 2#Strawberry | 3#Pineapple | 4#Apple | 5#Raspberry | 6#Coconut | 7#Passion fruit | 8#Orange | 9#Watermelon | 10#Cherry | 11#Melon}</item>
+        <item name="FR">{0,choice,0#Poire | 1#Banane | 2#Fraise | 3#Ananas | 4#Pomme | 5#Framboise | 6#Noix de coco | 7#Fruit de la passion | 8#Orange | 9#Pastèque | 10#Cerise | 11#Melon}</item>
+        <item name="PT">{0,choice,0#Pêra | 1#Banana | 2#Morango | 3#Abacaxi | 4#Maçã | 5#Framboesa | 6#Côco | 7#Maracujá | 8#Laranja | 9#Melancia | 10#Cereja | 11#Melão}</item>
+        <item name="IT">{0,choice,0#Pera | 1#Banana | 2#Fragola | 3#Ananas | 4#Mela | 5#Lampone | 6#Noce di cocco | 7#Frutto della passione | 8#Arancia | 9#Anguria | 10#Ciliegia | 11#Melone}</item>
+        <item name="ES">{0,choice,0#Pera | 1#Plátano | 2#Fresa | 3#Piña | 4#Manzana | 5#Frambuesa | 6#Coco | 7#Maracuyá | 8#Naranja | 9#Sandía | 10#Cereza | 11#Melon}</item>
+        <item name="DE">{0,choice,0#Birne | 1#Banane | 2#Erdbeere | 3#Ananas | 4#Apfel | 5#Himmbeere | 6#Kokosnuss | 7#Passionsfrucht | 8#Orange | 9#Wassermelone | 10#Kirsche | 11#Melone}</item>
+        <item name="DA">{0,choice,0#Pære | 1#Banan | 2#Jordbær | 3#Ananas | 4#Æble | 5#Hindbær | 6#Kokosnød | 7#Passionsfrugt | 8#Appelsin | 9#Vandmelon | 10#Kirsebær | 11#Melon}</item>
+        <item name="SV">{0,choice,0#Päron | 1#Banan | 2#Jordgubb | 3#Ananas | 4#Apple | 5#Hallon | 6#Kokonöt | 7#Passionsfrukt | 8#Appelsin | 9#Vattenmelon | 10#Körsbär | 11#Melon}</item>
+        <item name="TR">{0,choice,0#Armut | 1#Muz | 2#Çilek | 3#Ananas | 4#Elma | 5#Ahududu | 6#Hindistan cevizi | 7#Tutku meyvesi | 8#Portakal | 9#Karpuz | 10#Kiraz | 11#Kavun}</item>
+        <item name="HE">{0,choice,0#אגס | 
+            			1#בננה | 
+            			2#תות | 
+            			3#אננס | 
+            			4#תפוח | 
+            			5#פטל | 
+            			6#קוקוס | 
+            			7#פסיפלורה | 
+            			8#תפוז | 
+            			9#אבטיח | 
+            			10#דובדבן | 
+            			11#מלון}</item>
+        <item name="AR">{0,choice,0#اﻹجاصِ | 
+            			1#موز | 
+            			2#الفراولة | 
+            			3#الأناناس | 
+            			4#تفاحة | 
+            			5#التوت | 
+            			6#جوز الهند | 
+            			7#ثمرة زهرة الآلام | 
+            			8#برتقال | 
+            			9#بطيخ | 
+            			10#كرز | 
+            			11#شمام}</item>
+        <item name="ZN-HANS">{0,choice,0#梨 | 1#香蕉 | 2#草莓 | 3#菠萝 | 4#苹果 | 5#覆盆子 | 6#椰子 | 7#热情果 | 8#橙子 | 9#西瓜 | 10#樱桃 | 11#哈蜜瓜}</item>
+    </string-array>
+    <string-array name="Vegetables">
+        <item name="KZ">{0,choice,0#Кәді | 1#Қызанақ | 2#Гүлді қырыққабат | 3#Бұрыш | 4#Сәбіз | 5#Баялды | 6#Бұршақ | 7#Брокколи | 8#Картоп | 9#Асқабақ | 10#Пияз | 11#Салат}</item>
+        <item name="RU">{0,choice,0#Кабачок | 1#Помидор | 2#Цветная капуста | 3#Перец | 4#Морковь | 5#Баклажан | 6#Горох | 7#Брокколи | 8#Картофель | 9#Тыква | 10#Лук | 11#Салат}</item>
+        <item name="EN">{0,choice,0#Zucchini | 1#Tomato | 2#Cauliflower | 3#Pepper | 4#Carrot | 5#Eggplant | 6#Green peas | 7#Broccoli | 8#Potato | 9#Pumpkin | 10#Onion | 11#Salad}</item>
+        <item name="EN-GB">{0,choice,0#Courgette | 1#Tomato | 2#Cauliflower | 3#Pepper | 4#Carrot | 5#Aubergine | 6#Peas | 7#Broccoli | 8#Potato | 9#Pumpkin | 10#Onion | 11#Salad}</item>
+        <item name="FR">{0,choice,0#Courgette | 1#Tomate | 2#Chou-fleur | 3#Poivron | 4#Carotte | 5#Aubergine | 6#Petits pois | 7#Brocoli | 8#Pomme de terre | 9#Potiron | 10#Oignon | 11#Salade}</item>
+        <item name="PT">{0,choice,0#Abobrinha | 1#Tomate | 2#Couve-flor | 3#Pimentão | 4#Cenoura | 5#Beringela | 6#Ervilha | 7#Brócolis | 8#Batata | 9#Abóbora | 10#Cebola | 11#Salada}</item>
+        <item name="IT">{0,choice,0#Zucchini | 1#Pomodoro | 2#Cavolfiore | 3#Peperone | 4#Carota | 5#Melanzana | 6#Piselli | 7#Broccoli | 8#Patata | 9#Zucca | 10#Cipolla | 11#Insalata}</item>
+        <item name="ES">{0,choice,0#Calabacín | 1#Tomate | 2#Coliflor | 3#Pimiento | 4#Zanahoria | 5#Berenjena | 6#Guisantes | 7#Brócoli | 8#Patata | 9#Calabaza | 10#Cebolla | 11#Lechuga}</item>
+        <item name="DE">{0,choice,0#Zucchini | 1#Tomate | 2#Blumenkohl | 3#Paprika | 4#Karotten | 5#Aubergine | 6#Erbsen | 7#Brokkoli | 8#Kartoffel | 9#Kürbis | 10#Zwiebel | 11#Salat}</item>
+        <item name="DA">{0,choice,0#Squash | 1#Tomat | 2#Blomkål | 3#Peberfrugt | 4#Gulerod | 5#Aubergine | 6#Ærter | 7#Broccoli | 8#Kartoffel | 9#Græskar | 10#Løg | 11#Salat}</item>
+        <item name="SV">{0,choice,0#Squash | 1#Tomat | 2#Blomkål | 3#Peppar | 4#Morot | 5#Aubergine | 6#Ärter | 7#Broccoli | 8#Potatis | 9#Pumpa | 10#Lök | 11#Salad}</item>
+        <item name="TR">{0,choice,0#Kabak | 1#Domates | 2#Karnıbahar | 3#Biber | 4#Havuç | 5#Patlıcan | 6#Bezelye | 7#Brokoli | 8#Patates | 9#Kabak | 10#Soğan | 11#Marul}</item>
+        <item name="HE">{0,choice,0#קישאו | 
+            					1#עגבנייה | 
+            					2#כרובית | 
+            					3#פלפל | 
+            					4#גזר | 
+            					5#חציל | 
+            					6#אפונה ירוקה | 
+            					7#ברוקולי | 
+            					8#תפוח אדמה | 
+            					9#דלעת | 
+            					10#בצל | 
+            					11#סלט}</item>
+        <item name="AR">{0,choice,0#كوسا | 
+            					1#طماطم | 
+            					2#قرنبيط | 
+            					3#فلفل | 
+            					4#جزر | 
+            					5#باذنجان | 
+            					6#جُلْبان | 
+            					7#بروكلي | 
+            					8#البطاطس | 
+            					9#قرع نباتي | 
+            					10#بصل | 
+            					11#سلطة}</item>
+        <item name="ZH-HANS">{0,choice,0#西葫芦 | 1#西红柿 | 2#菜花 | 3#青椒 | 4#胡罗卜 | 5#茄子 | 6#青豆 | 7#西兰花 | 8#土豆 | 9#南瓜 | 10#洋葱 | 11#青菜}</item>
+    </string-array>
+    <string-array name="AnimalsOcean">
+        <item name="KZ">{0,choice,0#Медуза | 1#Теңіз қалқаны | 2#Акула | 3#Теңіз жұлдызы | 4#Касатка | 5#Кит | 6#Сегізаяқ | 7#Шаян | 8#Тасбақа | 9#Балық | 10#Дельфин | 11#Атбасты балық}</item>
+        <item name="RU">{0,choice,0#Медуза | 1#Морская раковина | 2#Акула | 3#Морская звезда | 4#Касатка | 5#Кит | 6#Осьминог | 7#Краб | 8#Черепаха | 9#Рыба | 10#Дельфин | 11#Морской конек}</item>
+        <item name="EN">{0,choice,0#Jellyfish | 1#Sea shell | 2#Shark | 3#Starfish | 4#Killer whale | 5#Whale | 6#Octopus | 7#Crab | 8#Turtle | 9#Fish | 10#Dolphin | 11#Seahorse}</item>
+        <item name="EN-GB">{0,choice,0#Jellyfish | 1#Sea shell | 2#Shark | 3#Starfish | 4#Killer whale | 5#Whale | 6#Octopus | 7#Crab | 8#Turtle | 9#Fish | 10#Dolphin | 11#Seahorse}</item>
+        <item name="FR">{0,choice,0#Méduse | 1#Coquillage | 2#Requin | 3#Etoile de mer | 4#Orque | 5#Baleine | 6#Pieuvre | 7#Crabe | 8#Tortue | 9#Poisson | 10#Dauphin | 11#Hippocampe}</item>
+        <item name="PT">{0,choice,0#Água-viva | 1#Concha | 2#Tubarão | 3#Estrela do mar | 4#Orca | 5#Baleia | 6#Polvo | 7#Caranguejo | 8#Tartaruga | 9#Peixe | 10#Golfinho | 11#Cavalo marinho}</item>
+        <item name="IT">{0,choice,0#Medusa | 1#Conchiglia | 2#Squalo | 3#Stella di mare | 4#Orca | 5#Balena | 6#Piovra | 7#Granchio | 8#Tartaruga | 9#Pesce | 10#Delfino | 11#Cavalluccio marino}</item>
+        <item name="ES">{0,choice,0#Medusa | 1#Caracola | 2#Tiburón | 3#Estrella de mar | 4#Orca | 5#Ballena | 6#Pulpo | 7#Cangrejo | 8#Tortuga | 9#Pez | 10#Delfín | 11#Caballito de mar}</item>
+        <item name="DE">{0,choice,0#Qualle | 1#Muschel | 2#Hai | 3#Seestern | 4#Schwertwal | 5#Wal | 6#Tintenfisch | 7#Krabbe | 8#Schildkröte | 9#Fisch | 10#Delphin | 11#Seepferdchen}</item>
+        <item name="DA">{0,choice,0#Vandmand | 1#Musling | 2#Haj | 3#Søstjerne | 4#Spækhugger | 5#Hval | 6#Blæksprutte | 7#Krabbe | 8#Skildpadde | 9#Fisk | 10#Delfin | 11#Søhest}</item>
+        <item name="SV">{0,choice,0#Maneter | 1#Mussla | 2#Haj | 3#Sjöstjärna | 4#Späckhuggare | 5#Val | 6#Bläckfisk | 7#Krabba | 8#Sköldpadda | 9#Fisk | 10#Delfin | 11#Sjöhäst}</item>
+        <item name="TR">{0,choice,0#Denizanası | 1#Deniz kabuğu | 2#Köpekbalığı | 3#Denizyıldızı | 4#Katil balina | 5#Balina | 6#Ahtapot | 7#Yengeç | 8#Deniz kaplumbağası | 9#Balık | 10#Yunus | 11#Hipokampus}</item>
+        <item name="HE">{0,choice,0#מדוזה | 
+            			1#צדפה | 
+            			2#כריש | 
+            			3#כוכב ים | 
+            			4#אורקה | 
+            			5#לווייתן | 
+            			6#תמנון | 
+            			7#סרטן | 
+            			8#צב | 
+            			9#דג | 
+            			10#דולפין | 
+            			11#סוסון ים}</item>
+        <item name="AR">{0,choice,0#قنديل البحر | 
+            			1#صدفة بحرية | 
+            			2#سمك القرش | 
+            			3#نجم البحر | 
+            			4#الحوت القاتل | 
+            			5#حوت | 
+            			6#أخطبوط | 
+            			7#سلطعون | 
+            			8#سلحفاة | 
+            			9#دلفين | 
+            			10#دلفين | 
+            			11#فرس البحر}</item>
+        <item name="ZH-HANS">{0,choice,0#水母 | 1#贝壳 | 2#鲨鱼 | 3#海星 | 4#虎鲸 | 5#鲸鱼 | 6#章鱼 | 7#蟹 | 8#龟 | 9#鱼 | 10#海豚 | 11#海马}</item>
+    </string-array>
+    <string-array name="AnimalsSavanna">
+        <item name="KZ">{0,choice,0#Мүйізтұмсық | 1#Маймыл | 2#Жолақ жылқы | 3#Су сиыры | 4#Леопард | 5#Арыстан | 6#Гну | 7#Ақбөкен | 8#Керік | 9#Қабылан | 10#Қорқау | 11#Піл}</item>
+        <item name="RU">{0,choice,0#Носорог | 1#Обезьяна | 2#Зебра | 3#Бегемот | 4#Леопард | 5#Лев | 6#Гну | 7#Антилопа | 8#Жираф | 9#Гепард | 10#Гиена | 11#Слон}</item>
+        <item name="EN">{0,choice,0#Rhinoceros | 1#Monkey | 2#Zebra | 3#Hippopotamus | 4#Leopard | 5#Lion | 6#Gnu | 7#Antelope | 8#Giraffe | 9#Cheetah | 10#Hyena | 11#Elephant}</item>
+        <item name="EN-GB">{0,choice,0#Rhinoceros | 1#Monkey | 2#Zebra | 3#Hippopotamus | 4#Leopard | 5#Lion | 6#Gnu | 7#Antelope | 8#Giraffe | 9#Cheetah | 10#Hyena | 11#Elephant}</item>
+        <item name="FR">{0,choice,0#Rhinocéros | 1#Singe | 2#Zèbre | 3#Hippopotame | 4#Léopard | 5#Lion | 6#Gnou | 7#Antilope | 8#Girafe | 9#Guépard | 10#Hyène | 11#Eléphant}</item>
+        <item name="PT">{0,choice,0#Rinoceronte | 1#Macaco | 2#Zebra | 3#Hipopótamo | 4#Leopardo | 5#Leão | 6#Gnu | 7#Antílope | 8#Girafa | 9#Guepardo | 10#Hiena | 11#Elefante}</item>
+        <item name="IT">{0,choice,0#Rinoceronte | 1#Scimmia | 2#Zebra | 3#Ippopotamo | 4#Leopardo | 5#Leone | 6#Gnu | 7#Antilope | 8#Giraffa | 9#Ghepardo | 10#Iena | 11#Elefante}</item>
+        <item name="ES">{0,choice,0#Rinoceronte | 1#Mono | 2#Cebra | 3#Hipopótamo | 4#Leopardo | 5#León | 6#Ñu | 7#Antílope | 8#Jirafa | 9#Guepardo | 10#Hiena | 11#Elefante}</item>
+        <item name="DE">{0,choice,0#Nashorn | 1#Affe | 2#Zebra | 3#Nilpferd | 4#Leopard | 5#Löwe | 6#Gnu | 7#Antilope | 8#Giraffe | 9#Gepard | 10#Hyäne | 11#Elefant}</item>
+        <item name="DA">{0,choice,0#Næsehorn | 1#Abe | 2#Zebra | 3#Flodhest | 4#Leopard | 5#Løve | 6#Gnu | 7#Antilope | 8#Giraf | 9#Gepard | 10#Hyæne | 11#Elefant}</item>
+        <item name="SV">{0,choice,0#Noshorning | 1#Apa | 2#Zebra | 3#Flodhäst | 4#Leopard | 5#Lejon | 6#Gnu | 7#Antilope | 8#Giraf | 9#Guepard | 10#Hyena | 11#Elefant}</item>
+        <item name="TR">{0,choice,0#Gergedan | 1#Maymun | 2#Zebra | 3#Suaygırı | 4#Leopar | 5#Aslan | 6#Gnu | 7#Antilop | 8#Zürafa | 9#Çita | 10#Sırtlan | 11#Fil}</item>
+        <item name="HE">{0,choice,0#קרנף | 
+            					1#קוף | 
+            					2#זברה | 
+            					3#היפופוטם | 
+            					4#נמר | 
+            					5#אריה | 
+            					6#גנו | 
+            					7#אנטילופה | 
+            					8#גירפה | 
+            					9#ציטה | 
+            					10#צבוע | 
+            					11#פיל}</item>
+        <item name="AR">{0,choice,0#وحيد القرن | 
+            					1#قرد | 
+            					2#الحمار الوحشي | 
+            					3#فرس النهر | 
+            					4#نمر | 
+            					5#أسد | 
+            					6#نو | 
+            					7#الظَبْي | 
+            					8#زرافة | 
+            					9#الفهد | 
+            					10#ضبع | 
+            					11#فيل}</item>
+        <item name="ZH-HANS">{0,choice,0#犀牛 | 1#猴子 | 2#斑马 | 3#河马 | 4#豹 | 5#狮子 | 6#牛铃 | 7#铃羊 | 8#长颈鹿 | 9#猎豹 | 10#土狼 | 11#大象}</item>
+    </string-array>
+<!--     <string-array name="TitlesCoverItem">
+        <item name="FarmAnimals">{0,choice,0#Үй жануарлары | 1#Сельскохозяйственные животные | 2#Farm animals}</item>
+        <item name="Colors">{0,choice,0#Түстер | 1#Цвета | 2#Colors }</item>
+        <item name="Fruits">{0,choice,0#Жемістер | 1#Фрукты | 2#Fruits }</item>
+        <item name="Vegetables">{0,choice,0#Көкөністер | 1#Овощи | 2#Vegetables }</item>
+        <item name="AnimalsOcean">{0,choice,0#Теңіз хайуанаттары | 1#Морские животные | 2#Animals of the sea }</item>
+        <item name="AnimalsSavanna">{0,choice,0#Саванна хайуанаттары | 1#Животные саванны | 2#Animals of the savanna }</item>
+    </string-array> -->
+    
+ <string-array name="TitlesCoverItem">
+        <item name="FarmAnimals">{0,choice,0#Үй жануарлары | 1#Домашние животные | 2#Farm animals | 3#Farm animals | 4#Animaux de la ferme | 5#Animais da fazenda  | 6#Animali della fattoria | 7#Animales de granja | 8#Tiere auf dem Bauernhof | 9#Husdyr | 10#Husdjur | 11#Çiftlik hayvanları 
+            | 12#חיות משק 
+            | 13#حيوانات المزرعة
+             | 14#农场动物}</item>
+        <item name="Colors">{0,choice,0#Түстер | 1#Цвета | 2#Colors | 3#Colours | 4#Couleurs | 5#Cores   | 6#Colori | 7#Colores | 8#Farben | 9#Farver | 10#Färger | 11#Renkler 
+            | 12#צבעים 
+            | 13#الألوان 
+            | 14#颜色}</item>
+        <item name="Fruits">{0,choice,0#Жемістер | 1#Фрукты | 2#Fruits | 3#Fruits | 4#Fruits | 5#Frutas   | 6#Frutta | 7#Fruta | 8#Obst | 9#Frugter | 10#Frukter | 11#Meyveler 
+            | 12#פירות 
+            | 13#فواكه 
+            | 14#水果}</item>
+        <item name="Vegetables">{0,choice,0#Көкөністер | 1#Овощи | 2#Vegetables | 3#Vegetables | 4#Légumes | 5#Legumes | 6#Verdura | 7#Verduras | 8#Gemüse | 9#Grøntsager | 10#Grönsaker | 11#Sebzeler 
+            | 12#ירקות 
+            | 13#الخضر 
+            | 14#蔬菜}</item>
+        <item name="AnimalsOcean">{0,choice,0#Теңіз хайуанаттары | 1#Морские животные | 2#Animals of the sea | 3#Animals of the sea | 4#Animaux de la mer | 5#Animais marinhos | 6#Animali marini | 7#Animales marinos | 8#Meerestiere | 9#Dyr i havet | 10#Havsdjur | 11#Deniz hayvanları 
+            | 12#חיות ים 
+            | 13#حيوانات البحر 
+            | 14#海洋动物}</item>
+        <item name="AnimalsSavanna">{0,choice,0#Саванна хайуанаттары | 1#Животные саванны | 2#Animals of the savanna | 3#Animals of the savanna | 4#Animaux de la savane | 5#Animais da savana | 6#Animali della savana | 7#Animales de la sabana | 8#Tiere in Afrika | 9#Dyr på savannen | 10#Savanndjur | 11#Ova hayvanları 
+            | 12#חיות הסוואנה 
+            | 13#حيوانات السافانا 
+            | 14#热带亚热带草原动物}</item>
+    </string-array>
+
+</resources>

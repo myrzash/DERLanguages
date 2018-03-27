@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkg"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/containerShape"
+        android:layout_toRightOf="@+id/imageViewBoy"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3" >
+    </GridView>
+
+    <ImageView
+        android:id="@+id/imageViewSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal"
+        android:layout_margin="@dimen/padding_normal"
+        android:src="@drawable/icon_menu" />
+
+    <ImageView
+        android:id="@+id/imageViewBoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:background="@drawable/animlist_boy_hide" />
+
+    <ImageView
+        android:id="@+id/imageDialogBoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageViewBoy"
+        android:layout_below="@+id/imageViewSettings"
+        android:src="@drawable/go_en"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/containerShape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/padding_normal"
+        android:layout_toRightOf="@+id/imageViewBoy" >
+
+        <ImageView
+            android:id="@+id/imageViewShape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/padding_high"
+            android:src="@drawable/header_main_en" />
+
+        <ImageView
+            android:id="@+id/imageDialogShape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewShape"
+            android:layout_alignLeft="@+id/imageViewShape"
+            android:src="@drawable/p1"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>
